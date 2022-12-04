@@ -6,4 +6,4 @@ This is a repository for my final project where I tested whether neural LMs have
 * `GPT-3.ipynb`: Jupyter notebook (that I ran locally) doing the same + getting acceptability judgments from GPT-3.
 * `data`: Folder containing (i) sentences used for finetuning, (ii) test sentences used to evaluate LM's performance, and (iii) results of the evaluation. For this project, I put all the data under a personal folder for this class on Google Drive so make sure to change paths accordingly if you want to use them.   
 
-I used Google Colab to finetune and get surprisal data for LSTM and GPT-2 models. For GPT-3, because the `surprisal` package required Python 3.9 or above, and upgrading Python version on Colab causes some dependency issues, I created a local virtual env from which I ran all the code.
+I used Google Colab to finetune and get surprisal data for LSTM and GPT-2 models. For GPT-3, because the `surprisal` [package](https://pypi.org/project/surprisal/) required Python 3.9 or above, and upgrading Python version on Colab causes some dependency issues, I created a local virtual env from which I ran all the code.
