@@ -6,8 +6,8 @@ import pandas as pd
 import surprisal
 
 def test_surprisal():
-    g = surprisal.OpenAIModel(model_id="curie:ft-personal-2022-11-21-16-39-49",# model_id='text-davinci-002',
-                            openai_api_key="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")
+    g = surprisal.OpenAIModel(model_id="curie:ft-personal-2022-11-21-16-39-49",
+                            openai_api_key="") #API key removed
 
 
     stims = [
